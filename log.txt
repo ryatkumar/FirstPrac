@@ -1,0 +1,1000 @@
+  627  ll
+  628  less hosts 
+  629  less ansible.cfg 
+  630  less apache.yml 
+  631  cd /etc/ansible/
+  632  ll
+  633  cd ans-apache/
+  634  less apache.yml 
+  635  ansible-doc register
+  636  less apache.yml 
+  637  cd /etc/ansible/
+  638  ll
+  639  mkdir service-uptime
+  640  ll
+  641  cd service-uptime/
+  642  nano ansible.cfg
+  643  nano hosts
+  644  cd ../
+  645  cd ans-apache/
+  646  ll
+  647  less hosts 
+  648  less ansible.cfg 
+  649  cd ../
+  650  ll
+  651  cd service-uptime/
+  652  mv ansible.cfg hosts1
+  653  mv hosts ansible.cfg
+  654  mv hosts1 hosts
+  655  ll
+  656  less hosts 
+  657  less ansible.cfg 
+  658  nano ansible.cfg 
+  659  nano status.yml
+  660  ansible-playbook status.yml --ask-sudo-pass
+  661  nano status.yml
+  662  cp status.yml stats.yml
+  663  nano stats.yml 
+  664  ansible-playbook stats.yml 
+  665  ansible-playbook stats.yml --ask-sudo-pass
+  666  nano stats.yml 
+  667  ansible-playbook stats.yml --ask-sudo-pass
+  668  nano stats.yml 
+  669  ansible-playbook stats.yml --ask-sudo-pass
+  670  nano stats.yml 
+  671  ansible-playbook stats.yml --ask-sudo-pass
+  672  nano stats.yml 
+  673  ansible-playbook stats.yml --ask-sudo-pass
+  674  nano stats.yml 
+  675  ansible-playbook stats.yml --ask-sudo-pass
+  676  nano stats.yml 
+  677  ansible-playbook stats.yml --ask-sudo-pass
+  678  nano stats.yml 
+  679  ansible-playbook stats.yml --ask-sudo-pass
+  680  nano stats.yml 
+  681  ansible-playbook stats.yml --ask-sudo-pass
+  682  nano stats.yml 
+  683  ansible-playbook stats.yml --ask-sudo-pass
+  684  nano stats.yml 
+  685  ansible-playbook stats.yml --ask-sudo-pass
+  686  ll
+  687  nano status.yml 
+  688  nano stats.yml 
+  689  ansible-playbook stats.yml --ask-sudo-pass
+  690  nano status.yml 
+  691  git --version 
+  692  git config
+  693  git config -l
+  694  git config --global
+  695  git config --list
+  696  locate -i git
+  697  locate -i *.git
+  698  cd /opt/
+  699  ll
+  700  cd do
+  701  cd Dock/
+  702  ll
+  703  cd  namer/
+  704  ll
+  705  git config --list
+  706  cd ../
+  707  ll
+  708  cd /opt/
+  709  mkdir git
+  710  ll
+  711  cd  git/
+  712  ll
+  713  git config --global user.name "ryatkumar"
+  714  git config --global user.email "ryateesh@gmail.com"
+  715  git config --list
+  716  ls -ltr
+  717  ll
+  718  cd ~/.gitconfig
+  719  nano ~/.gitconfig
+  720  ls -ltrh
+  721  mkdir local-repo
+  722  cd local-repo/
+  723  nano abc.log
+  724  ll
+  725  nano xyz.lo
+  726  mv xyz.lo xyz.log
+  727  ll
+  728  git init
+  729  ls
+  730  ll
+  731  git status
+  732  git add abc.log 
+  733  git status
+  734  git add -A
+  735  git status
+  736  git commit -m "Second try"
+  737  git status
+  738  git log
+  739  git clone  https://github.com/ryatkumar/firstrepo .
+  740  ls
+  741  cd ../
+  742  git clone  https://github.com/ryatkumar/firstrepo .
+  743  ll
+  744  mkdir ryat
+  745  cd ryat/
+  746  ll
+  747  git clone  https://github.com/ryatkumar/firstrepo .
+  748  ls -ltrh
+  749  ll
+  750  cd ../
+  751  ll
+  752  cd local-repo/
+  753  ll
+  754  cd ../
+  755  ll
+  756  git remote -v
+  757  cd local-repo/
+  758  ll
+  759  git remote -v
+  760  cd ../
+  761  cd ryat/
+  762  git remote -v
+  763  git branch -a
+  764  cd ../
+  765  cd local-repo/
+  766  git branch -a
+  767  ll
+  768  nano abc.log 
+  769  git diff
+  770  git status
+  771  git add -A
+  772  git status
+  773  git commit -m "added hi"
+  774  git pull
+  775  git pull origin master
+  776  ll
+  777  git push origin master
+  778  git push master
+  779  git config --list 
+  780  git status
+  781  git push https://github.com/ryatkumar/ master
+  782  git push https://github.com/ryatkumar/firstrepo master
+  783  git pull https://github.com/ryatkumar/firstrepo master
+  784  ll
+  785  git push https://github.com/ryatkumar/firstrepo master
+  786  git push https://github.com/ryatkumar/firstrepo newBranch1
+  787  git push https://github.com/ryatkumar/firstrepo/tree/newBranch1 newBranch1
+  788  git push https://github.com/ryatkumar/firstrepo/tree/ newBranch1
+  789  git push https://github.com/ryatkumar/firstrepo/ newBranch1
+  790  git branch ranch1
+  791  git branch
+  792  git checkout ranch1 
+  793  git branch
+  794  ll
+  795  nano abc.log 
+  796  git status
+  797  git add -A
+  798  git commit -m "added yo yo"
+  799  git push -u https://github.com/ryatkumar/firstrepo ranch1 
+  800  git branch -a
+  801  git checkout master 
+  802  git pull https://github.com/ryatkumar/firstrepo master
+  803  git branch --merged
+  804  git merge ranch1 
+  805  git push https://github.com/ryatkumar/firstrepo master
+  806  git branch --merged 
+  807  git branch -d ranch1 
+  808  git branch -a
+  809  history
+  810  exit
+  811  cd /op
+  812  cd /opt/
+  813  ll
+  814  cd tomcat
+  815  ll
+  816  yes
+  817  ll
+  818  cd /etc/ansible/
+  819  ll
+  820  cd tomcat-war/
+  821  ll
+  822  less tomcat.yml 
+  823  cd ../
+  824  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+  825  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+  826  apt-get update
+  827  apt-get install
+  828  apt-get install jenkins
+  829  sudo systemctl start jenkins
+  830  systemctl status jenkins
+  831  sudo ufw allow 8080
+  832  sudo ufw status
+  833  sudo ufw allow OpenSSH
+  834  sudo ufw enable
+  835  sudo ufw status
+  836  cd /etc/
+  837  ll
+  838  locate -i jenkins
+  839  cd ../
+  840  ll
+  841  cd bin/
+  842  ll
+  843  cd /etc/sysctl.d/
+  844  ll
+  845  cd ../
+  846  cd systemd/j
+  847  cd systemd/
+  848  ll
+  849  cd ../
+  850  ll
+  851  cd /etc/
+  852  ll
+  853  cd /var/lib/
+  854  ll
+  855  cd jenkins/
+  856  ll
+  857  less failed-boot-attempts.txt 
+  858  cd .java/
+  859  ll
+  860  systemctl status jenkins
+  861  vi /etc/sysconfig/jenkins
+  862  apt-get install jenkins --httpPort=9090
+  863  apt-get install jenkins
+  864  cd /var/lib/jenkins/
+  865  ll
+  866  cd ../
+  867  locate -i jenkins.war
+  868  locate -i jenkins
+  869  ll
+  870  cd bin/
+  871  ll
+  872  cd systemd
+  873  less systemd
+  874  cd ../
+  875  ll
+  876  cd /opt/
+  877  l
+  878  ll
+  879  cd ../
+  880  ll
+  881  cd var/
+  882  l
+  883  cd lib/
+  884  ll
+  885  cd jenkins/
+  886  ll
+  887  ls -alrt
+  888  cd .java/
+  889  ll
+  890  cd fonts/
+  891  ll
+  892  cd 1.8.0_171/
+  893  lll
+  894  ll
+  895  less fcinfo-1-Machine2-Ubuntu-16.04-en.properties 
+  896  cd ../
+  897  cd ../../../../
+  898  cd ../
+  899  cd usr/
+  900  ll
+  901  cd share/
+  902  ll
+  903  cd jenkins/
+  904  ll
+  905  java -jar jenkins.war --httpPort=9090
+  906  systemctl status jenkins
+  907  ll
+  908  cd /
+  909  ll
+  910  cd root
+  911  ll
+  912  cd .jenkins/
+  913  ll
+  914  cd logs/
+  915  ll
+  916  cd tasks/
+  917  ll
+  918  cd ../
+  919  cd /opt/tomcat/
+  920  ll
+  921  systemstl status tomcat
+  922  systemctl status tomcat
+  923  systemctl stop tomcat
+  924  systemctl status tomcat
+  925  ll
+  926  cd conf/
+  927  ll
+  928  nano server.xml 
+  929  systemctl start tomcat
+  930  systemctl status tomcat
+  931  cd /var/lib/jenkins/
+  932  ll
+  933  apt-get install jenkins
+  934  apt autoremove jenkins
+  935  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+  936  echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+  937  sudo apt-get update
+  938  apt-get install jenkins
+  939  systemctl start jenkins
+  940  systemctl status jenkins
+  941  ufw allow 8080~
+  942  ufw allow 8080
+  943  ufw status
+  944  ll
+  945  cd secrets/
+  946  ll
+  947  less initialAdminPassword 
+  948  sudo apt-get install git
+  949  ll
+  950  cd /opt/
+  951  ll
+  952  cd git
+  953  ll
+  954  cd ryat/
+  955  ll
+  956  cd ../
+  957  cd local-repo/
+  958  ll
+  959  cd ../
+  960  cd /var/lib/jenkins/
+  961  ll
+  962  cd logs/
+  963  ll
+  964  cd tasks/
+  965  ll
+  966  less Download
+  967  ll
+  968  less Download\ metadata.log 
+  969  cd ../
+  970  ll
+  971  cd plugins/
+  972  ll
+  973  cd ../
+  974  ll
+  975  cd plugins/
+  976  ll
+  977  systemstl stop jenkins
+  978  systemctl restart jenkins
+  979  apt autoremove jenkins
+  980  cd ../
+  981  ll
+  982  cd ../
+  983  rm -rf jenkins/
+  984  ll
+  985  apt-get install jenkins
+  986  systemctl status jenkins
+  987  cd jenkins/n
+  988  cd jenkins/
+  989  ll
+  990  cd secrets/
+  991  ll
+  992  less initialAdminPassword 
+  993  cd ../
+  994  ll
+  995  cd plugins/
+  996  ll
+  997  cd ../
+  998  chmod 777 plugins/
+  999  ll
+ 1000  java --version
+ 1001  java -version
+ 1002  exit
+ 1003  cd /opt/tomcat/
+ 1004  ll
+ 1005  cd bin/
+ 1006  ll
+ 1007  cd ..
+ 1008  ll
+ 1009  cd conf/
+ 1010  ll
+ 1011  echo JAVA_HOME
+ 1012  java -version
+ 1013  java help
+ 1014  help java
+ 1015  man -k java
+ 1016  info java
+ 1017  ll
+ 1018  cd ../
+ 1019  ll
+ 1020  cd webapps/
+ 1021  ll
+ 1022  cd webapp/
+ 1023  ll
+ 1024  cd  WEB-INF/
+ 1025  LL
+ 1026  ll
+ 1027  cd classes/
+ 1028  ll
+ 1029  cd ./
+ 1030  cd ../
+ 1031  ll
+ 1032  less web.xml \
+ 1033  less web.xml 
+ 1034  cd ../
+ 1035  ll
+ 1036  cd META-INF/
+ 1037  ll
+ 1038  cd ../
+ 1039  ll
+ 1040  cd WEB-INF/
+ 1041  ll
+ 1042  cd classes/
+ 1043  ll
+ 1044  cd ..
+ 1045  less web.xml 
+ 1046  cd ../
+ 1047  ll
+ 1048  cd ../
+ 1049  ll
+ 1050  cd ROOT/
+ 1051  ll
+ 1052  cd ../
+ 1053  ll
+ 1054  cd ../
+ 1055  ll
+ 1056  mkdir tomcat1
+ 1057  cd tomcat
+ 1058  cp -r conf/ logs/ temp/ webapps/ work/ /opt/tomcat1/
+ 1059  cd ../
+ 1060  cd tomcat1
+ 1061  ll
+ 1062  chown tomcat:tomcat .
+ 1063  ll
+ 1064  chown tomcat:tomcat *
+ 1065  ll
+ 1066  cd ../
+ 1067  ll
+ 1068  chown -R tomcat:tomcat tomcat1
+ 1069  ll
+ 1070  cd tomcat1
+ 1071  ll
+ 1072  cd conf/
+ 1073  ll
+ 1074  nano server.xml 
+ 1075  ll
+ 1076  cd ../
+ 1077  cd bin
+ 1078  cd ../
+ 1079  cd tomcat
+ 1080  ll
+ 1081  cd bin/
+ 1082  ll
+ 1083  less startup.sh 
+ 1084  less catalina.sh 
+ 1085  cd ../
+ 1086  ll
+ 1087  cd ../
+ 1088  ll
+ 1089  touch tomcat1.sh
+ 1090  ll
+ 1091  chown -r tomcat:tomcat tomcat1.sh
+ 1092  chown  tomcat:tomcat tomcat1.sh
+ 1093  ll
+ 1094  chmod 777 *.sh
+ 1095  ll
+ 1096  less tomcat1.sh 
+ 1097  nano tomcat1.sh 
+ 1098  ll
+ 1099  cp tomcat1.sh tomcat1-shutdown.sh
+ 1100  ll
+ 1101  chown tomcat:tomcat tomcat1-shutdown.sh
+ 1102  chmod 777 tomcat1-shutdown.sh
+ 1103  ll
+ 1104  ./tomcat1.sh
+ 1105  cd ../
+ 1106  cd ~
+ 1107  ll
+ 1108  nano .bashrc
+ 1109  cd /opt/
+ 1110  ll
+ 1111  ./tomcat1.sh 
+ 1112  su tomcat
+ 1113  su tomcat 
+ 1114  su tomcat
+ 1115  ll
+ 1116  cd tomcat
+ 1117  ll
+ 1118  cd bin/
+ 1119  ll
+ 1120  ./startup.sh 
+ 1121  cd ../
+ 1122  ll
+ 1123  cd ..
+ 1124  ll
+ 1125  nano ./tomcat1.sh 
+ 1126  ./tomcat1.sh 
+ 1127  exit
+ 1128  ll
+ 1129  cd /opt/
+ 1130  ll
+ 1131  less .tomcat1.sh.swp 
+ 1132  rm -rf .tomcat1.sh.swp 
+ 1133  ll
+ 1134  cd tomcat
+ 1135  ll
+ 1136  cd bin/
+ 1137  ll
+ 1138  ./startup.sh 
+ 1139  cd ../
+ 1140  ll
+ 1141  cd ../
+ 1142  ll
+ 1143  ./tomcat1.sh 
+ 1144  less tomcat1.sh 
+ 1145  nano tomcat1.sh 
+ 1146  ./tomcat1.sh 
+ 1147  cd tomcat1/
+ 1148  ll
+ 1149  cd conf/
+ 1150  ll
+ 1151  less server.xml 
+ 1152  cd ~
+ 1153  ll
+ 1154  less .bashrc
+ 1155  cd /opt/tomcat1/
+ 1156  ll
+ 1157  cd ../
+ 1158  ll
+ 1159  nano tomcat1-shutdown.sh 
+ 1160  ./tomcat1-shutdown.sh 
+ 1161  nano tomcat1-shutdown.sh 
+ 1162  ./tomcat1-shutdown.sh 
+ 1163  apt-get up
+ 1164  apt-get update
+ 1165  apt-get install apache2
+ 1166  apt-get install apache
+ 1167  apt-cache search apr
+ 1168  apt-get install apache2-utils 
+ 1169  ufw app list
+ 1170  ufw allow 'Apache Full'
+ 1171  systemctl status
+ 1172  systemctl status apache2
+ 1173  hostname -I
+ 1174  cd /var/www/html/
+ 1175  ll
+ 1176  cd etc
+ 1177  cd /etc/apache2/
+ 1178  ll
+ 1179  less apache2.conf 
+ 1180  less ports.conf 
+ 1181  cd sites-enabled/
+ 1182  ll
+ 1183  cd ../
+ 1184  cd sites-available/
+ 1185  ll
+ 1186  cd ../
+ 1187  ll
+ 1188  cd mods-available/
+ 1189  ll
+ 1190  ls -ltrh
+ 1191  cd ../
+ 1192  cd mods-enabled/
+ 1193  ll
+ 1194  ls -ltrh
+ 1195  a2enmod proxy_ajp 
+ 1196  service apache2 restart
+ 1197  ll
+ 1198  cd ../
+ 1199  ll
+ 1200  exit
+ 1201  cd /opt/
+ 1202  ll
+ 1203  tar -xvzf httpd-2.4.33.tar.gz httpd-2.4.33
+ 1204  ll
+ 1205  chown root
+ 1206  chown root:root httpd-2.4.33
+ 1207  ll
+ 1208  ls -ltrh
+ 1209  cd httpd-2.4.33/
+ 1210  ll
+ 1211  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared
+ 1212  apt-get install apr
+ 1213  apt-get install aprx
+ 1214  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared
+ 1215  cd /etc/ansible/
+ 1216  ll
+ 1217  cd ../
+ 1218  cd apache2/
+ 1219  ll
+ 1220  cd li
+ 1221  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared
+ 1222  cd /opt/apache2
+ 1223  ll
+ 1224  cd /opt/
+ 1225  ll
+ 1226  cd httpd-2.4.33/
+ 1227  sudo apt-cache search apr
+ 1228  apt-get install libapr1
+ 1229  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared
+ 1230  apt-get install libaprutil1
+ 1231  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared
+ 1232  cd /etc/apache2/
+ 1233  ll
+ 1234  cd mods-available/
+ 1235  ll
+ 1236  cd ../
+ 1237  ll
+ 1238  cd ../
+ 1239  ll
+ 1240  cd ../
+ 1241  ll
+ 1242  cd ll
+ 1243  ll
+ 1244  df -h
+ 1245  cd /dev/sda1
+ 1246  cd /dev/
+ 1247  ll
+ 1248  exit
+ 1249  ls -lhrt
+ 1250  cd /opt/
+ 1251  ls -lhrt
+ 1252  cd git/
+ 1253  cd ../
+ 1254  systemstl status tomcat
+ 1255  systemctl status tomcat
+ 1256  systemctl stop tomcat
+ 1257  systemctl start tomcat
+ 1258  cd /opt/tomcat
+ 1259  ll
+ 1260  cd bin/
+ 1261  ll
+ 1262  less startup.sh 
+ 1263  cd ../
+ 1264  touch master.sh
+ 1265  nano master.sh
+ 1266  ll
+ 1267  chmod 777 master.sh 
+ 1268  ll
+ 1269  ./master.sh 
+ 1270  less master.sh 
+ 1271  cd /opt/tomcat/bin/
+ 1272  ll
+ 1273  ./shutdown.sh
+ 1274  systemstl status tomcat
+ 1275  systemctl status tomcat
+ 1276  ./shutdown.sh
+ 1277  systemctl status tomcat
+ 1278  ps -ef|grep tomcat
+ 1279  kill -9 15489
+ 1280  ps -ef|grep tomcat
+ 1281  systemctl status tomcat
+ 1282  cd /opt/
+ 1283  ll
+ 1284  touch master-shutdown.sh
+ 1285  nano master-shutdown.sh 
+ 1286  ll
+ 1287  chmod 777 master-shutdown.sh 
+ 1288  ll
+ 1289  ./master-shutdown.sh 
+ 1290  nano master-shutdown.sh 
+ 1291  ./master-shutdown.sh 
+ 1292  ps -ef|grep tomcat
+ 1293  kill -9 15909
+ 1294  sudo apt-cache search apr
+ 1295  apt-get install libapache2-mod-apreq2 libapr1 libaprutil1 libapr1 apache2-utils lua-apr libtcnative-1
+ 1296  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared
+ 1297  ll
+ 1298  cd httpd-2.4.33/
+ 1299  ll
+ 1300  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared
+ 1301  apt-get install libapache2-mod-apreq2 libapr1 libaprutil1 libapr1 apache2-utils lua-apr libtcnative-1
+ 1302  wget http://mirrors.axint.net/apache//apr/apr-util-1.4.1.tar.gz
+ 1303  wget http://www-us.apache.org/dist//apr/apr-1.6.3.tar.gz
+ 1304  tar -zxvf apr-1.6.3.tar.gz
+ 1305  cd apr-1.6.3.tar.gz
+ 1306  ls -ltrh
+ 1307  cd apr-1.6.3/
+ 1308  ll
+ 1309  make
+ 1310  make install
+ 1311  ./configure
+ 1312  make
+ 1313  make install
+ 1314  cd ../
+ 1315  wget http://www-us.apache.org/dist//apr/apr-util-1.6.1.tar.gz
+ 1316  tar -xvzf apr-util-1.6.1.tar.gz 
+ 1317  cd apr-util-1.6.1/
+ 1318  ll
+ 1319  ./configure --with-apr=/usr/local/apr
+ 1320  make
+ 1321  make install
+ 1322  cd .//
+ 1323  cd ../
+ 1324  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared
+ 1325  make
+ 1326  cd /usr/local
+ 1327  ll
+ 1328  ls -ltrh
+ 1329  cd /opt/
+ 1330  ll
+ 1331  cd httpd-2.4.33/
+ 1332  ./configure --prefix=/usr/local/apr    --enable-rewrite=shared  --enable-proxy=shared
+ 1333  locate -i pcre
+ 1334  locate -i pcre-config
+ 1335  wget https://ftp.pcre.org/pub/pcre/
+ 1336  wget https://ftp.pcre.org/pub/pcre/pcre2-10.31.tar.gz
+ 1337  tar -xvzf pcre2-10.31.tar.gz 
+ 1338  cd pcre2-10.31/
+ 1339  ./configure --prefix=/usr/local/pcre
+ 1340  make
+ 1341  make install
+ 1342  cd ../
+ 1343  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared
+ 1344  ./configure --prefix=/usr/local/pcre    --enable-rewrite=shared  --enable-proxy=shared
+ 1345  cd /usr/local
+ 1346  ll
+ 1347  pcre
+ 1348  cd pcre/
+ 1349  ll
+ 1350  cd lib/
+ 1351  l
+ 1352  ll
+ 1353  cd pkgconfig/
+ 1354  ll
+ 1355  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared  --with-pcre=/usr/local/pcre
+ 1356  cd ../../../../../
+ 1357  cd /opt/httpd-2.4.33/
+ 1358  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared  --with-pcre=/usr/local/pcre
+ 1359  ll
+ 1360  ls -ltrh
+ 1361  cd pcre2-10.31/
+ 1362  ll
+ 1363  cd ../
+ 1364  wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.42.tar.gz
+ 1365  tar -xvzf pcre-8.42.tar.gz 
+ 1366  cd pcre-8.42/
+ 1367  ll
+ 1368  ./configure --prefix=/usr/local/pcre
+ 1369  make
+ 1370  make install
+ 1371  --with-pcre=/usr/local/pcre
+ 1372  cd ../
+ 1373  ./configure --prefix=/usr/local/apache    --enable-rewrite=shared  --enable-proxy=shared --with-pcre=/usr/local/pcre
+ 1374  wget http://redrockdigimark.com/apachemirror/tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.43-src.tar.gz
+ 1375  tar -zxvf tomcat-connectors-1.2.43-src.tar.gz 
+ 1376  cd tomcat-connectors-1.2.43-src/
+ 1377  cd native/
+ 1378  cd ../
+ 1379  history
+ 1380  make
+ 1381  make instaal
+ 1382  make install
+ 1383  cd tomcat-connectors-1.2.43-src/
+ 1384  ll
+ 1385  cd native/
+ 1386  make
+ 1387  make install
+ 1388  cd ../
+ 1389  ll
+ 1390  cd conf/
+ 1391  ll
+ 1392  less workers.properties 
+ 1393  touch workers1.properties 
+ 1394  nano workers1.properties 
+ 1395  cd /opt/httpd-2.4.33/
+ 1396  ll
+ 1397  cd co
+ 1398  ll
+ 1399  cd ../
+ 1400  ll
+ 1401  cd httpd-2.4.33/
+ 1402  ll
+ 1403  cd /usr/local/apache/conf/
+ 1404  ll
+ 1405  nano httpd.conf 
+ 1406  cd ../../
+ 1407  ll
+ 1408  exit
+ 1409  maven --version
+ 1410  mvn --version
+ 1411  cd /opt/
+ 1412  mkdir
+ 1413  mkdir maven
+ 1414  cd maven/
+ 1415  wget http://www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+ 1416  tar -xzfv apache-maven-3.5.4-bin.tar.gz 
+ 1417  history
+ 1418  tar -xvzf apache-maven-3.5.4-bin.tar.gz 
+ 1419  export M2_HOME=/opt/maven/
+ 1420  ll
+ 1421  export M2_HOME=/opt/maven/apache-maven-3.5.4
+ 1422  export PATH=/opt/maven/apache-maven-3.5.4/bin:${PATH}
+ 1423  mvn --version
+ 1424  mkdir myapp
+ 1425  ll
+ 1426  cd myapp/
+ 1427  mvn archetype:generate
+ 1428  ll
+ 1429  cd MavenTestApp/
+ 1430  ll
+ 1431  less pom.xml 
+ 1432  cd src/
+ 1433  ll
+ 1434  cd main/
+ 1435  ll
+ 1436  cd java/
+ 1437  ll
+ 1438  cd ../../../
+ 1439  less pom.xml 
+ 1440  ls -ltrh
+ 1441  cd src/main/java/org/yateesh/devops/
+ 1442  ll
+ 1443  less App.java 
+ 1444  cd /opt/maven/myapp/
+ 1445  ll
+ 1446  M
+ 1447  cd MavenTestApp/
+ 1448  LL
+ 1449  ll
+ 1450  mvn compile
+ 1451  mvn package
+ 1452  java -cp target/MavenTestApp-1.0-SNAPSHOT.jar org.yateesh.devops.App 
+ 1453  ls
+ 1454  mvn compile
+ 1455  ll
+ 1456  mvn test
+ 1457  mvn package
+ 1458  ll
+ 1459  cd target/
+ 1460  ll
+ 1461  mvn install
+ 1462  cd ../
+ 1463  mvn install
+ 1464  ll
+ 1465  mvn clean
+ 1466  ll
+ 1467  cd src/main/java/org/yateesh/devops/
+ 1468  ll
+ 1469  less App.java 
+ 1470  cd /opt/maven/myapp/MavenTestApp/
+ 1471  ll
+ 1472  mvn compile
+ 1473  ll
+ 1474  less pom.xml 
+ 1475  ll
+ 1476  mvn compile
+ 1477  ll
+ 1478  cd ../
+ 1479  ll
+ 1480  mkdir MavenWebApp
+ 1481  cd MavenWebApp/
+ 1482  ll
+ 1483  mvn archetype:generate
+ 1484  ll
+ 1485  cd MavenWebApp/
+ 1486  ll
+ 1487  less pom.xml 
+ 1488  ll
+ 1489  mvn package
+ 1490  mvn compile
+ 1491  mvn package
+ 1492  ll
+ 1493  cd target/
+ 1494  ll
+ 1495  cd ../
+ 1496  ll
+ 1497  less pom.xml 
+ 1498  cd /opt/git/
+ 1499  ll
+ 1500  ls -ltrh
+ 1501  cd ryat/
+ 1502  ll
+ 1503  cd ../
+ 1504  cd local-repo/
+ 1505  ll
+ 1506  cd ../
+ 1507  git --version
+ 1508  ll
+ 1509  mkdir prac
+ 1510  ll
+ 1511  git config --list 
+ 1512  clear
+ 1513  ll
+ 1514  clr
+ 1515  clear
+ 1516  ll
+ 1517  cd prac/
+ 1518  git init
+ 1519  ll
+ 1520  ls -lart
+ 1521  git status
+ 1522  touch a.txt
+ 1523  touch b.txt
+ 1524  status
+ 1525  git status
+ 1526  vi a.txt 
+ 1527  nano a.txt 
+ 1528  less a.txt 
+ 1529  git status
+ 1530  git add .
+ 1531  git status
+ 1532  git reset b.txt
+ 1533  git status
+ 1534  git add -A
+ 1535  git status
+ 1536  git commit -m "first prac add "
+ 1537  git status
+ 1538  git log
+ 1539  clear
+ 1540  git log
+ 1541  git clone  https://github.com/ryatkumar/FirstPrac.git .
+ 1542  git clone  https://github.com/ryatkumar/FirstPrac.git
+ 1543  ll
+ 1544  rm -rf FirstPrac/
+ 1545  ll
+ 1546  git remote add origin https://github.com/ryatkumar/FirstPrac.git
+ 1547  git push -u origin master 
+ 1548  git status
+ 1549  git log
+ 1550  clear
+ 1551  git log
+ 1552  git remote -v
+ 1553  git branch -a
+ 1554  ll
+ 1555  vi b.txt 
+ 1556  nano b.txt 
+ 1557  ls -lrh
+ 1558  git diif
+ 1559  git diff
+ 1560  git status
+ 1561  clear
+ 1562  git add -A
+ 1563  git status
+ 1564  git commit -m "Modiffied b"
+ 1565  git status
+ 1566  git pull origin master 
+ 1567  git push origin master 
+ 1568  git branch one
+ 1569  git branch
+ 1570  git checkout one 
+ 1571  ll
+ 1572  git branch 
+ 1573  nano a.txt 
+ 1574  less a.txt 
+ 1575  git status
+ 1576  git add -A
+ 1577  ll
+ 1578  git staus
+ 1579  git status
+ 1580  git commit -m "branch one commit"
+ 1581  git staus
+ 1582  git status
+ 1583  git branch
+ 1584  git push -u origin one
+ 1585  git branch -a
+ 1586  git checkout master 
+ 1587  git branch -a
+ 1588  git pull origin master 
+ 1589  git branch --merged 
+ 1590  git merge one 
+ 1591  git status
+ 1592  git push origin master 
+ 1593  git branch --merged
+ 1594  git branch -d one 
+ 1595  git branch -a
+ 1596  git push origin --delete one
+ 1597  git branch -a
+ 1598  git branch two
+ 1599  git checkout two 
+ 1600  ll
+ 1601  nano b.txt 
+ 1602  ls -ltrh
+ 1603  git status
+ 1604  git add -A
+ 1605  git status
+ 1606  git commit -m "modified b in 2nd branch"
+ 1607  git pull origin master
+ 1608  git push origin two
+ 1609  git status
+ 1610  git branch -s
+ 1611  git branch -a
+ 1612  git push --help
+ 1613  git branch -a
+ 1614  git checkout master 
+ 1615  git branch -a
+ 1616  git pull origin master 
+ 1617  git merge two
+ 1618  git --merged
+ 1619  git branch --merged
+ 1620  git push origin master
+ 1621  git branch -d two
+ 1622  git branch -a
+ 1623  git branch --delete two
+ 1624  git push origin  --delete two
+ 1625  history
+ 1626  history >> log.txt
